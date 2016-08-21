@@ -151,15 +151,15 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
     <ExecutablePath>$(VCInstallDir)bin;$(WindowsSDK_ExecutablePath_x86);$(VSInstallDir)Common7\Tools\bin;$(VSInstallDir)Common7\tools;$(VSInstallDir)Common7\ide;$(ProgramFiles)\HTML Help Workshop;$(MSBuildToolsPath32);$(VSInstallDir);$(SystemRoot)\SysWow64;$(FxCopDir);$(PATH);W:\Programmations\My_Apps\VisualStudio_Global\bin32;</ExecutablePath>
-    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);include;res;..\libSharun\include;..\..\VisualStudio_Global\include;$(UniversalCRT_IncludePath)</IncludePath>
-    <ReferencePath>$(VC_ReferencesPath_x86);..\libSharun\Debug;..\libSharun\Release;..\..\VisualStudio_Global\lib32;$(UniversalCRT_LibraryPath_x86)</ReferencePath>
-    <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86;..\libSharun\Debug;..\libSharun\Release;..\..\VisualStudio_Global\lib32;$(UniversalCRT_LibraryPath_x86)</LibraryPath>
+    <IncludePath>..\..\VisualStudio_Global\include;..\libSharun\include;include;res;$(IncludePath)</IncludePath>
+    <ReferencePath>..\..\VisualStudio_Global\lib32;..\libSharun\Debug;$(ReferencePath)</ReferencePath>
+    <LibraryPath>..\..\VisualStudio_Global\lib32;..\libSharun\Debug;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);include;res;..\libSharun\include;..\..\VisualStudio_Global\include;$(UniversalCRT_IncludePath)</IncludePath>
-    <ReferencePath>$(VC_ReferencesPath_x86);..\libSharun\Debug;..\libSharun\Release;..\..\VisualStudio_Global\lib32;$(UniversalCRT_LibraryPath_x86)</ReferencePath>
-    <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86;..\libSharun\Debug;..\libSharun\Release;..\..\VisualStudio_Global\lib32;$(UniversalCRT_LibraryPath_x86)</LibraryPath>
+    <IncludePath>..\..\VisualStudio_Global\include;..\libSharun\include;include;res;$(IncludePath)</IncludePath>
+    <ReferencePath>..\..\VisualStudio_Global\lib32;..\libSharun\Release;$(ReferencePath)</ReferencePath>
+    <LibraryPath>..\..\VisualStudio_Global\lib32;..\libSharun\Release;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

@@ -143,6 +143,8 @@ void player::Load(uint id_l)
 	void *rslt = DB_Query_Fast(1, sql, Id);
 	row = DB_Next_Row(rslt);
 
+	Created_Time = atol(row[DB_characters_create_time]);
+
 	Class_Id = atoi(row[DB_characters_class_id]);
 	Race_Id = atoi(row[DB_characters_race_id]);
 	Sex = atoi(row[DB_characters_sex]);
