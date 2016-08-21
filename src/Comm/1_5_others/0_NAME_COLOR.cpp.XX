@@ -1,0 +1,10 @@
+#include "Sharun.hpp"
+
+void NAME_COLOR_f(player_t *player, uint objectId, uint subId, uint color)
+{
+/*	packet_l->write_2(player, OpCodes_GetOpCode(player, NAME_COLOR));
+	packet_l->write_4(player, objectId);
+	packet_l->write_4(player, subId);
+	packet_l->write_4(player, color);
+	Player_UpdateHeaderS(player);*/
+}
