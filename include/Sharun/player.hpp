@@ -77,6 +77,7 @@ class player {
 		ulong	Last_Move;
 		ulong	loged;
 		ulong	Saved_Time;
+		ulong	Created_Time;
 		uchar	exit_type;
 		ulong	exit_time;
 		ushort	Right;
@@ -92,7 +93,7 @@ class row_player
 		row_player*	Prev;
 };
 
-#ifdef DLL_VERSION
+#ifdef _WINDLL
 extern void	(*free_player)(player*);
 extern int	(*Send_Packet)(player*, packet*);
 extern void	(*player_Load)(player*, uint);
@@ -110,6 +111,6 @@ void	Stats_Update(player*);
 void	RegenD_ReWait(player*);
 void	RegenD_DontWait(player*);
 }
-#endif // DLL_VERSION
+#endif // _WINDLL
 
 #endif // _PLAYER_HPP_

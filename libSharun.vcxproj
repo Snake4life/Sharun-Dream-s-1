@@ -70,14 +70,14 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>$(VC_IncludePath);C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt;W:\Programmations\My_Apps\VisualStudio_Global\include;include;$(WindowsSDK_IncludePath);</IncludePath>
-    <ReferencePath>$(VC_ReferencesPath_x86);C:\Program Files (x86)\Windows Kits\10\Lib\10.0.10150.0\ucrt;W:\Programmations\My_Apps\VisualStudio_Global\lib32;</ReferencePath>
-    <LibraryPath>$(VC_LibraryPath_x86);C:\Program Files (x86)\Windows Kits\10\Lib\10.0.10150.0\ucrt;W:\Programmations\My_Apps\VisualStudio_Global\lib32;$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86</LibraryPath>
+    <IncludePath>..\..\VisualStudio_Global\include;include;$(IncludePath)</IncludePath>
+    <ReferencePath>..\..\VisualStudio_Global\lib32;$(ReferencePath)</ReferencePath>
+    <LibraryPath>..\..\VisualStudio_Global\lib32;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <IncludePath>$(VC_IncludePath);C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt;W:\Programmations\My_Apps\VisualStudio_Global\include;include;$(WindowsSDK_IncludePath);</IncludePath>
-    <ReferencePath>$(VC_ReferencesPath_x86);C:\Program Files (x86)\Windows Kits\10\Lib\10.0.10150.0\ucrt;W:\Programmations\My_Apps\VisualStudio_Global\lib32;</ReferencePath>
-    <LibraryPath>$(VC_LibraryPath_x86);C:\Program Files (x86)\Windows Kits\10\Lib\10.0.10150.0\ucrt;W:\Programmations\My_Apps\VisualStudio_Global\lib32;$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86</LibraryPath>
+    <IncludePath>..\..\VisualStudio_Global\include;include;$(IncludePath)</IncludePath>
+    <ReferencePath>..\..\VisualStudio_Global\lib32;$(ReferencePath)</ReferencePath>
+    <LibraryPath>..\..\VisualStudio_Global\lib32;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -143,9 +143,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <Text Include="ReadMe.txt" />
-  </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\char16_t.cpp" />
     <ClCompile Include="src\DB\DB.cpp" />

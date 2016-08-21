@@ -1,7 +1,7 @@
 #ifndef _WORLD_HPP_
 #define _WORLD_HPP_
 
-#ifdef DLL_VERSION
+#ifdef _WINDLL
 extern void	(*World_Spam)(player*);
 extern void	(*World_Exit)(player*);
 extern void	(*World_Chat)(player*, CHAT_TYPE, const char*, const char*, const char16_t*);
@@ -19,6 +19,6 @@ void	World_PlayerSocial(player*, bool, int);
 void	World_PlayerMount(player*, bool, uint);
 void	World_PlayerSkill(player*, player*, uint, ushort, float*, float*);
 }
-#endif // DLL_VERSION
+#endif // _WINDLL
 
 #endif // _WORLD_HPP_

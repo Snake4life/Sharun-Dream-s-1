@@ -38,7 +38,7 @@ int	SQL_Check_Char(char*);
 void	SQL_Format_Char(char*);
 void	SQL_toFloat(char*);
 
-#ifdef DLL_VERSION
+#ifdef _WINDLL
 extern void (*DEBUG)(const char*, ...);
 extern void (*DEBUG2)(const char*, ...);
 #else
@@ -46,6 +46,6 @@ extern "C" {
 void	DEBUG(const char*, ...);
 void	DEBUG2(const char*, ...);
 }
-#endif // DLL_VERSION
+#endif // _WINDLL
 
 #endif // _UTILS_HPP_

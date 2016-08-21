@@ -103,7 +103,7 @@ extern sharun_t *Sharun;
 
 extern ushort var_NBR[0xffff];
 
-#ifdef DLL_VERSION
+#ifdef _WINDLL
 extern int	(*DB_getEquipment)(void*, enum SlotType, long);
 extern char	(*DB_getEquipment_Ench)(void*, enum SlotType, long);
 extern char	(*DB_getEquipment_Max)(void*, enum SlotType, long);
@@ -113,6 +113,6 @@ int	DB_getEquipment(void*, enum SlotType, long);
 char	DB_getEquipment_Ench(void*, enum SlotType, long);
 char	DB_getEquipment_Max(void*, enum SlotType, long);
 }
-#endif // DLL_VERSION
+#endif // _WINDLL
 
 #endif // _SHARUN_HPP_

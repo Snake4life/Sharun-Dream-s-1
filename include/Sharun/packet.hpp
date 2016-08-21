@@ -59,7 +59,7 @@ class packet
 		virtual float	read_F();
 };
 
-#ifdef DLL_VERSION
+#ifdef _WINDLL
 extern packet*	(*new_packet)(OpCode_Enum, int);
 extern void*	(*packet_send_empty)(OpCode_Enum, const void**);
 #else
@@ -67,6 +67,6 @@ extern "C" {
 packet*	new_packet(OpCode_Enum, int);
 void*	packet_send_empty(OpCode_Enum, const void**);
 }
-#endif // DLL_VERSION
+#endif // _WINDLL
 
 #endif // _PACKET_HPP_

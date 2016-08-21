@@ -28,7 +28,7 @@ class SQL_QUEUE {
 		void*	result;
 };
 
-#ifdef DLL_VERSION
+#ifdef _WINDLL
 extern void	(*DB_Query_Add)(SQL_QUEUE*);
 extern uint	(*DB_Max_Row)(void *Result);
 extern void	(*DB_Seek)(void *Result, ulong pos);
@@ -56,6 +56,6 @@ float	DB_Query_float(float *ret, const char *Query, ...);
 char16_t*	DB_Query_S(char16_t *ret, const char *Query, ...);
 char*	DB_Query_char(char *ret, const char *Query, ...);
 }
-#endif // DLL_VERSION
+#endif // _WINDLL
 
 #endif // _DB_HPP_

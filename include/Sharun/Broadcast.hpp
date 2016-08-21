@@ -13,7 +13,7 @@ enum BROADCAST_TYPE {
 	BC_TYPE_FORCE	= 256
 };
 
-#ifdef DLL_VERSION
+#ifdef _WINDLL
 extern void (*BroadcastD_Add)(packet*);
 extern void (*BroadcastD_Greet)(player*, OpCode_Enum, BROADCAST_TYPE);
 #else
@@ -21,6 +21,6 @@ extern "C" {
 void BroadcastD_Add(packet*);
 void BroadcastD_Greet(player*, OpCode_Enum, BROADCAST_TYPE);
 }
-#endif // DLL_VERSION
+#endif // _WINDLL
 
 #endif // _BROADCAST_HPP_

@@ -62,12 +62,12 @@ class settings {
 		STUFF *class_mat;
 };
 
-#ifdef DLL_VERSION
+#ifdef _WINDLL
 extern ulong	(*get_Experience_LEVEL)(ushort);
 #else
 extern "C" {
 ulong	get_Experience_LEVEL(ushort);
 }
-#endif // DLL_VERSION
+#endif // _WINDLL
 
 #endif // _SETTINGS_HPP_
