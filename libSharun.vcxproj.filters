@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\DB">
+      <UniqueIdentifier>{15b0292c-0ca8-4b3b-9ff8-7c7ccb60e866}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\network">
+      <UniqueIdentifier>{ff8d9be3-5339-4119-89b9-80b31dcf4002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Sharun">
+      <UniqueIdentifier>{ce8e27ed-6e30-4d7f-b2bb-8c5abda39911}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Sharun\DB">
+      <UniqueIdentifier>{0cc4e081-1859-4f68-83fe-1128883c1f31}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\char16_t.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\player.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pthread_sub.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DB\DB.cpp">
+      <Filter>Fichiers sources\DB</Filter>
+    </ClCompile>
+    <ClCompile Include="src\network\packet.cpp">
+      <Filter>Fichiers sources\network</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Sharun\Broadcast.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sharun\CHAR_LOC.h">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sharun\char16_t.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sharun\Chat_Type.h">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sharun\CheckType.h">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sharun\Class.h">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sharun\Client_Lang.h">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sharun\connexion.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sharun\data_type.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sharun\DB.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sharun\Emote_Type.h">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sharun\Items.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sharun\Monster.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sharun\Mount.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sharun\Move_Type.h">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sharun\Name_Color.h">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sharun\NPC.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sharun\OpCode_Gen.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sharun\OpCodes.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sharun\packet.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sharun\player.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sharun\plugins.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sharun\pthread_sub.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sharun\Race.h">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sharun\settings.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sharun\Sharun.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sharun\Slot_Type.h">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sharun\spawn.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sharun\Stat.h">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sharun\Stuff.h">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sharun\utils.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sharun\World.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sharun\ZONES.h">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sharun\DB\DB_character_detail_2.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun\DB</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sharun\DB\DB_character_items.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun\DB</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sharun\DB\DB_character_skill.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun\DB</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sharun\DB\DB_character_skill2.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun\DB</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sharun\DB\DB_characters.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun\DB</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sharun\DB\DB_Friends_List.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun\DB</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sharun\DB\DB_template.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun\DB</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sharun\DB\DB_character_appearances.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun\DB</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

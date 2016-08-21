@@ -1,0 +1,53 @@
+#ifndef _DB_characters_
+#define _DB_characters_
+
+enum DB_characters
+{
+	DB_characters_AccoundId = 0,
+	DB_characters_object_id,
+	DB_characters_class_id,
+	DB_characters_race_id,
+	DB_characters_sex,
+	DB_characters_char_name,
+	DB_characters_title,
+	DB_characters_create_time,
+	DB_characters_online_time,
+	DB_characters_last_online,
+	DB_characters_end_ban,
+	DB_characters_end_chat_ban,
+	DB_characters_access_level,
+	DB_characters_level,
+	DB_characters_exp,
+	DB_characters_hp,
+	DB_characters_mp,
+	DB_characters_heart,
+	DB_characters_karma,
+	DB_characters_collect_mining,
+	DB_characters_collect_plant,
+	DB_characters_collect_energy,
+	DB_characters_country,
+	DB_characters_lander,
+	DB_characters_aera,
+	DB_characters_zone,
+	DB_characters_heading,
+	DB_characters_x,
+	DB_characters_y,
+	DB_characters_z,
+	DB_characters_DJ_zone,
+	DB_characters_DJ_heading,
+	DB_characters_DJ_x,
+	DB_characters_DJ_y,
+	DB_characters_DJ_z,
+	DB_characters_attack_counter,
+	DB_characters_pve_count,
+	DB_characters_pvp_count,
+	DB_characters_friend_note,
+	DB_characters_guild_id,
+	DB_characters_guild_rank,
+	DB_characters_guild_note,
+	DB_characters_Order,
+	DB_characters_Server_ID,
+	DB_characters_MAXI
+};
+
+#endif // _DB_characters_

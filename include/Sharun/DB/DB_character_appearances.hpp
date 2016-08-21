@@ -1,0 +1,48 @@
+#ifndef _DB_character_appearances_
+#define _DB_character_appearances_
+
+enum DB_character_appearances
+{
+	DB_character_appearances_object_id = 0,
+	DB_character_appearances_face_color,
+	DB_character_appearances_face_skin,
+	DB_character_appearances_adorments_skin,
+	DB_character_appearances_features_skin,
+	DB_character_appearances_features_color,
+	DB_character_appearances_voice,
+	DB_character_appearances_bone_structure_brow,
+	DB_character_appearances_bone_structure_cheekbones,
+	DB_character_appearances_bone_structure_jaw,
+	DB_character_appearances_bone_structure_jaw_jut,
+	DB_character_appearances_ears_rotation,
+	DB_character_appearances_ears_extension,
+	DB_character_appearances_ears_trim,
+	DB_character_appearances_ears_size,
+	DB_character_appearances_eyes_width,
+	DB_character_appearances_eyes_height,
+	DB_character_appearances_eyes_separation,
+	DB_character_appearances_Unk1,
+	DB_character_appearances_eyes_angle,
+	DB_character_appearances_eyes_inner_brow,
+	DB_character_appearances_eyes_outer_brow,
+	DB_character_appearances_Unk2,
+	DB_character_appearances_nose_extension,
+	DB_character_appearances_nose_size,
+	DB_character_appearances_nose_bridge,
+	DB_character_appearances_nose_nostril_width,
+	DB_character_appearances_nose_tip_width,
+	DB_character_appearances_nose_tip,
+	DB_character_appearances_nose_nostril_flare,
+	DB_character_appearances_mouth_pucker,
+	DB_character_appearances_mouth_position,
+	DB_character_appearances_mouth_width,
+	DB_character_appearances_mouth_lip_thickness,
+	DB_character_appearances_mouse_corners,
+	DB_character_appearances_eyes_shape,
+	DB_character_appearances_nose_bend,
+	DB_character_appearances_bone_structure_jaw_width,
+	DB_character_appearances_mouth_gape,
+	DB_character_appearances_MAXI
+};
+
+#endif // _DB_character_appearances_
