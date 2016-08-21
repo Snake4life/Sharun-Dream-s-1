@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\OpCodes">
+      <UniqueIdentifier>{0e397e29-2ec1-4e8e-b822-a8feb4cc9fa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\DB">
+      <UniqueIdentifier>{7f1683f9-ee7f-4896-99c5-a5e8c027e528}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\DB\2_Ram">
+      <UniqueIdentifier>{3a0027f0-e0e2-4a9b-b165-6d95c486bf23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Calc">
+      <UniqueIdentifier>{e79047da-8f2a-402c-b3f6-65bede43b3e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\network">
+      <UniqueIdentifier>{1c93d01f-c1d8-4adf-80d9-ba1e9ad464a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\network\teraCrypt">
+      <UniqueIdentifier>{cc850294-164c-40f9-a1ce-0f61b9060ce5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Sharun">
+      <UniqueIdentifier>{90880bb4-a502-4b0b-b19c-fc965ce4ab23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Dream">
+      <UniqueIdentifier>{31def85f-76c1-4705-b2db-38959ea86b44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Sharun\DB">
+      <UniqueIdentifier>{c0977cd5-37ca-4f70-88ab-5c5d2a1f50b7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\item_internal.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mount_internal.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\npc_internal.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\player_internal.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Plugins.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\regen_internal.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\settings.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spawn_internal.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\thread.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win32_IconSysTray.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\World.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DEBUG.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Fixed_Thread.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OpCodes\OpCode.cpp">
+      <Filter>Fichiers sources\OpCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OpCodes\OpCode_Gen.cpp">
+      <Filter>Fichiers sources\OpCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DB\2_Ram\2R_Equipments.cpp">
+      <Filter>Fichiers sources\DB\2_Ram</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DB\2_Ram\2R_Friendly.cpp">
+      <Filter>Fichiers sources\DB\2_Ram</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DB\2_Ram\2R_Items.cpp">
+      <Filter>Fichiers sources\DB\2_Ram</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DB\2_Ram\2R_Monsters.cpp">
+      <Filter>Fichiers sources\DB\2_Ram</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DB\2_Ram\2R_Mounts.cpp">
+      <Filter>Fichiers sources\DB\2_Ram</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DB\2_Ram\2R_Zones.cpp">
+      <Filter>Fichiers sources\DB\2_Ram</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DB\DB_internal.cpp">
+      <Filter>Fichiers sources\DB</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DB\MySQL.cpp">
+      <Filter>Fichiers sources\DB</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Calc\HP_Mod.cpp">
+      <Filter>Fichiers sources\Calc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Calc\getDistance.cpp">
+      <Filter>Fichiers sources\Calc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Calc\Equipment.cpp">
+      <Filter>Fichiers sources\Calc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Calc\Stamina.cpp">
+      <Filter>Fichiers sources\Calc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\network\BroadcastD.cpp">
+      <Filter>Fichiers sources\network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\network\connexion.cpp">
+      <Filter>Fichiers sources\network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\network\GameD.cpp">
+      <Filter>Fichiers sources\network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\network\http.cpp">
+      <Filter>Fichiers sources\network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\network\HttpD.cpp">
+      <Filter>Fichiers sources\network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\network\network.cpp">
+      <Filter>Fichiers sources\network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\network\RegenD.cpp">
+      <Filter>Fichiers sources\network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\network\packet_internal.cpp">
+      <Filter>Fichiers sources\network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\network\teraCrypt\Cryptor.cpp">
+      <Filter>Fichiers sources\network\teraCrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\network\teraCrypt\CryptorKey.cpp">
+      <Filter>Fichiers sources\network\teraCrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\network\teraCrypt\Sha.cpp">
+      <Filter>Fichiers sources\network\teraCrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\network\teraCrypt\Session.cpp">
+      <Filter>Fichiers sources\network\teraCrypt</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\network\can_transform.hpp">
+      <Filter>Fichiers sources\network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\network\Game_Regen.hpp">
+      <Filter>Fichiers sources\network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\network\httpd_link.hpp">
+      <Filter>Fichiers sources\network</Filter>
+    </ClInclude>
+    <ClInclude Include="res\resource.hpp">
+      <Filter>Fichiers de ressources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Dream\psocket.hpp">
+      <Filter>Fichiers d%27en-tête\Dream</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Dream\DB.hpp">
+      <Filter>Fichiers d%27en-tête\Dream</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Dream\Fixed_Thread.hpp">
+      <Filter>Fichiers d%27en-tête\Dream</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Dream\network.hpp">
+      <Filter>Fichiers d%27en-tête\Dream</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Dream\Dream.hpp">
+      <Filter>Fichiers d%27en-tête\Dream</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Dream\TeraCrypt.hpp">
+      <Filter>Fichiers d%27en-tête\Dream</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Dream\version.hpp">
+      <Filter>Fichiers d%27en-tête\Dream</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Dream\thread.hpp">
+      <Filter>Fichiers d%27en-tête\Dream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libSharun\include\Sharun\Broadcast.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libSharun\include\Sharun\CHAR_LOC.h">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libSharun\include\Sharun\char16_t.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libSharun\include\Sharun\Chat_Type.h">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libSharun\include\Sharun\CheckType.h">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libSharun\include\Sharun\Class.h">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libSharun\include\Sharun\Client_Lang.h">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libSharun\include\Sharun\connexion.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libSharun\include\Sharun\data_type.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libSharun\include\Sharun\DB.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libSharun\include\Sharun\Emote_Type.h">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libSharun\include\Sharun\Items.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libSharun\include\Sharun\Monster.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libSharun\include\Sharun\Mount.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libSharun\include\Sharun\Move_Type.h">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libSharun\include\Sharun\Name_Color.h">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libSharun\include\Sharun\NPC.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libSharun\include\Sharun\OpCode_Gen.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libSharun\include\Sharun\OpCodes.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libSharun\include\Sharun\packet.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libSharun\include\Sharun\player.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libSharun\include\Sharun\plugins.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libSharun\include\Sharun\pthread_sub.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libSharun\include\Sharun\Race.h">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libSharun\include\Sharun\settings.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libSharun\include\Sharun\Sharun.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libSharun\include\Sharun\Slot_Type.h">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libSharun\include\Sharun\spawn.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libSharun\include\Sharun\Stat.h">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libSharun\include\Sharun\Stuff.h">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libSharun\include\Sharun\utils.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libSharun\include\Sharun\World.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libSharun\include\Sharun\ZONES.h">
+      <Filter>Fichiers d%27en-tête\Sharun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libSharun\include\Sharun\DB\DB_character_detail_2.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun\DB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libSharun\include\Sharun\DB\DB_character_items.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun\DB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libSharun\include\Sharun\DB\DB_character_skill.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun\DB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libSharun\include\Sharun\DB\DB_character_skill2.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun\DB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libSharun\include\Sharun\DB\DB_characters.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun\DB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libSharun\include\Sharun\DB\DB_Friends_List.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun\DB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libSharun\include\Sharun\DB\DB_template.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun\DB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libSharun\include\Sharun\DB\DB_character_appearances.hpp">
+      <Filter>Fichiers d%27en-tête\Sharun\DB</Filter>
+    </ClInclude>
+    <ClInclude Include="src\network\mime_type.hpp">
+      <Filter>Fichiers sources\network</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Elin.ico">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="res\Elin.png">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="res\TERA.ico">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="res\TERA.png">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="res\resource.rc">
+      <Filter>Fichiers de ressources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

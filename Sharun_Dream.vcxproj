@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Calc\Equipment.cpp" />
+    <ClCompile Include="src\Calc\getDistance.cpp" />
+    <ClCompile Include="src\Calc\HP_Mod.cpp" />
+    <ClCompile Include="src\Calc\Stamina.cpp" />
+    <ClCompile Include="src\DB\2_Ram\2R_Equipments.cpp" />
+    <ClCompile Include="src\DB\2_Ram\2R_Friendly.cpp" />
+    <ClCompile Include="src\DB\2_Ram\2R_Items.cpp" />
+    <ClCompile Include="src\DB\2_Ram\2R_Monsters.cpp" />
+    <ClCompile Include="src\DB\2_Ram\2R_Mounts.cpp" />
+    <ClCompile Include="src\DB\2_Ram\2R_Zones.cpp" />
+    <ClCompile Include="src\DB\DB_internal.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.;include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="src\DB\MySQL.cpp" />
+    <ClCompile Include="src\DEBUG.cpp" />
+    <ClCompile Include="src\Fixed_Thread.cpp" />
+    <ClCompile Include="src\item_internal.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\mount_internal.cpp" />
+    <ClCompile Include="src\network\BroadcastD.cpp" />
+    <ClCompile Include="src\network\connexion.cpp" />
+    <ClCompile Include="src\network\GameD.cpp" />
+    <ClCompile Include="src\network\http.cpp" />
+    <ClCompile Include="src\network\HttpD.cpp" />
+    <ClCompile Include="src\network\network.cpp" />
+    <ClCompile Include="src\network\packet_internal.cpp" />
+    <ClCompile Include="src\network\RegenD.cpp" />
+    <ClCompile Include="src\network\teraCrypt\Cryptor.cpp" />
+    <ClCompile Include="src\network\teraCrypt\CryptorKey.cpp" />
+    <ClCompile Include="src\network\teraCrypt\Session.cpp" />
+    <ClCompile Include="src\network\teraCrypt\Sha.cpp" />
+    <ClCompile Include="src\npc_internal.cpp" />
+    <ClCompile Include="src\OpCodes\OpCode.cpp" />
+    <ClCompile Include="src\OpCodes\OpCode_Gen.cpp" />
+    <ClCompile Include="src\player_internal.cpp" />
+    <ClCompile Include="src\Plugins.cpp" />
+    <ClCompile Include="src\regen_internal.cpp" />
+    <ClCompile Include="src\settings.cpp" />
+    <ClCompile Include="src\spawn_internal.cpp" />
+    <ClCompile Include="src\thread.cpp" />
+    <ClCompile Include="src\win32_IconSysTray.cpp" />
+    <ClCompile Include="src\World.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\libSharun\include\Sharun\Broadcast.hpp" />
+    <ClInclude Include="..\libSharun\include\Sharun\char16_t.hpp" />
+    <ClInclude Include="..\libSharun\include\Sharun\CHAR_LOC.h" />
+    <ClInclude Include="..\libSharun\include\Sharun\Chat_Type.h" />
+    <ClInclude Include="..\libSharun\include\Sharun\CheckType.h" />
+    <ClInclude Include="..\libSharun\include\Sharun\Class.h" />
+    <ClInclude Include="..\libSharun\include\Sharun\Client_Lang.h" />
+    <ClInclude Include="..\libSharun\include\Sharun\connexion.hpp" />
+    <ClInclude Include="..\libSharun\include\Sharun\data_type.hpp" />
+    <ClInclude Include="..\libSharun\include\Sharun\DB.hpp" />
+    <ClInclude Include="..\libSharun\include\Sharun\DB\DB_characters.hpp" />
+    <ClInclude Include="..\libSharun\include\Sharun\DB\DB_character_appearances.hpp" />
+    <ClInclude Include="..\libSharun\include\Sharun\DB\DB_character_detail_2.hpp" />
+    <ClInclude Include="..\libSharun\include\Sharun\DB\DB_character_items.hpp" />
+    <ClInclude Include="..\libSharun\include\Sharun\DB\DB_character_skill.hpp" />
+    <ClInclude Include="..\libSharun\include\Sharun\DB\DB_character_skill2.hpp" />
+    <ClInclude Include="..\libSharun\include\Sharun\DB\DB_Friends_List.hpp" />
+    <ClInclude Include="..\libSharun\include\Sharun\DB\DB_template.hpp" />
+    <ClInclude Include="..\libSharun\include\Sharun\Emote_Type.h" />
+    <ClInclude Include="..\libSharun\include\Sharun\Items.hpp" />
+    <ClInclude Include="..\libSharun\include\Sharun\Monster.hpp" />
+    <ClInclude Include="..\libSharun\include\Sharun\Mount.hpp" />
+    <ClInclude Include="..\libSharun\include\Sharun\Move_Type.h" />
+    <ClInclude Include="..\libSharun\include\Sharun\Name_Color.h" />
+    <ClInclude Include="..\libSharun\include\Sharun\NPC.hpp" />
+    <ClInclude Include="..\libSharun\include\Sharun\OpCodes.hpp" />
+    <ClInclude Include="..\libSharun\include\Sharun\OpCode_Gen.hpp" />
+    <ClInclude Include="..\libSharun\include\Sharun\packet.hpp" />
+    <ClInclude Include="..\libSharun\include\Sharun\player.hpp" />
+    <ClInclude Include="..\libSharun\include\Sharun\plugins.hpp" />
+    <ClInclude Include="..\libSharun\include\Sharun\pthread_sub.hpp" />
+    <ClInclude Include="..\libSharun\include\Sharun\Race.h" />
+    <ClInclude Include="..\libSharun\include\Sharun\settings.hpp" />
+    <ClInclude Include="..\libSharun\include\Sharun\Sharun.hpp" />
+    <ClInclude Include="..\libSharun\include\Sharun\Slot_Type.h" />
+    <ClInclude Include="..\libSharun\include\Sharun\spawn.hpp" />
+    <ClInclude Include="..\libSharun\include\Sharun\Stat.h" />
+    <ClInclude Include="..\libSharun\include\Sharun\Stuff.h" />
+    <ClInclude Include="..\libSharun\include\Sharun\utils.hpp" />
+    <ClInclude Include="..\libSharun\include\Sharun\World.hpp" />
+    <ClInclude Include="..\libSharun\include\Sharun\ZONES.h" />
+    <ClInclude Include="include\Dream\DB.hpp" />
+    <ClInclude Include="include\Dream\Dream.hpp" />
+    <ClInclude Include="include\Dream\Fixed_Thread.hpp" />
+    <ClInclude Include="include\Dream\network.hpp" />
+    <ClInclude Include="include\Dream\psocket.hpp" />
+    <ClInclude Include="include\Dream\TeraCrypt.hpp" />
+    <ClInclude Include="include\Dream\thread.hpp" />
+    <ClInclude Include="include\Dream\version.hpp" />
+    <ClInclude Include="res\resource.hpp" />
+    <ClInclude Include="src\network\can_transform.hpp" />
+    <ClInclude Include="src\network\Game_Regen.hpp" />
+    <ClInclude Include="src\network\httpd_link.hpp" />
+    <ClInclude Include="src\network\mime_type.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Elin.ico" />
+    <Image Include="res\Elin.png" />
+    <Image Include="res\TERA.ico" />
+    <Image Include="res\TERA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="res\resource.rc" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DB2EF3E5-442C-41CB-B44F-964E47522EE3}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Sharun_Dream</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <ExecutablePath>$(VCInstallDir)bin;$(WindowsSDK_ExecutablePath_x86);$(VSInstallDir)Common7\Tools\bin;$(VSInstallDir)Common7\tools;$(VSInstallDir)Common7\ide;$(ProgramFiles)\HTML Help Workshop;$(MSBuildToolsPath32);$(VSInstallDir);$(SystemRoot)\SysWow64;$(FxCopDir);$(PATH);W:\Programmations\My_Apps\VisualStudio_Global\bin32;</ExecutablePath>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);include;res;..\libSharun\include;..\..\VisualStudio_Global\include;$(UniversalCRT_IncludePath)</IncludePath>
+    <ReferencePath>$(VC_ReferencesPath_x86);..\libSharun\Debug;..\libSharun\Release;..\..\VisualStudio_Global\lib32;$(UniversalCRT_LibraryPath_x86)</ReferencePath>
+    <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86;..\libSharun\Debug;..\libSharun\Release;..\..\VisualStudio_Global\lib32;$(UniversalCRT_LibraryPath_x86)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);include;res;..\libSharun\include;..\..\VisualStudio_Global\include;$(UniversalCRT_IncludePath)</IncludePath>
+    <ReferencePath>$(VC_ReferencesPath_x86);..\libSharun\Debug;..\libSharun\Release;..\..\VisualStudio_Global\lib32;$(UniversalCRT_LibraryPath_x86)</ReferencePath>
+    <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86;..\libSharun\Debug;..\libSharun\Release;..\..\VisualStudio_Global\lib32;$(UniversalCRT_LibraryPath_x86)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;NO_ERROR_FILE;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>include;res;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;psapi.lib;Wsock32.lib;Ws2_32.lib;tbb.lib;libmysql.lib;mysqlclient.lib;libdl.lib;pthreadVC2.lib;libSharun.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NO_ERROR_FILE;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;psapi.lib;Wsock32.lib;Ws2_32.lib;tbb.lib;libmysql.lib;mysqlclient.lib;libdl.lib;pthreadVC2.lib;libSharun.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
